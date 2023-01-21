@@ -1,0 +1,12 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "pipeline": {
+    "prebuild": { "dependsOn": ["^build"] },
+    "build": {
+      "dependsOn": ["^prebuild", "^build"]
+    },
+    "prepack": {},
+    "sb": {},
+    "bsb": {}
+  }
+}

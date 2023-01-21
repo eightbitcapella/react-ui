@@ -1,0 +1,7 @@
+.turbo
+dist
+node_modules
+package.json.backup
+.eslintcache
+.DS_Store
+.npmrc

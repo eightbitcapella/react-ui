@@ -1,0 +1,9 @@
+node_modules
+src
+tsconfig.json
+stats.html
+.turbo
+.npmrc
+package.json.backup
+rollup.config.js
+stats.html

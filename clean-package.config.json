@@ -1,0 +1,16 @@
+{
+  "replace": {
+    "types": "dist/types/index.d.ts",
+    "main": "dist/esm/index.js",
+    "module": "dist/index.js",
+    "browser": "dist/index.js",
+    "exports": {
+      ".": {
+        "types": "./dist/types/index.d.ts",
+        "import": "./dist/index.js",
+        "require": "./dist/esm/index.js"
+      },
+      "./package.json": "./package.json"
+    }
+  }
+}
